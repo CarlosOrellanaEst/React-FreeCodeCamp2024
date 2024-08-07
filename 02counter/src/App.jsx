@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   // const [variable, function]
-  const [counter, setCounter] = useState(15)
+  const [counter, setCounter] = useState(15) // only setCounter can change counter. useState is the default value
 
  // let counter = 15;
   const addValue = () => {
