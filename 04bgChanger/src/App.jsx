@@ -23,7 +23,7 @@ function App() {
 
         {/* Efficient way for various buttons */}
           {colors.map((colorName) => (
-            <button className={`outline-none px-4 py-1 rounded-full shadow-lg text-black bg-${colorName}-500`} onClick={() => setColor(colorName)}>
+            <button className={`outline-none px-4 py-1 rounded-full shadow-lg text-black`} style={{background: colorName}} onClick={() => setColor(colorName)}>
               {colorName}
             </button>
           ))}
